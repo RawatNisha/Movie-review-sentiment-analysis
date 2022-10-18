@@ -1,0 +1,153 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    flex-wrap: wrap;
+}
+
+header h1{
+    color: #2f3640;
+}
+/* nav{
+    min-width: 200px;
+    display: flex;
+    justify-content: space-between;
+} */
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    min-height: 80vh;
+}
+aside{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+aside button,#outputButton{
+    min-width: 200px;
+    font-size: 20px;
+    background-color: #192a56;
+    padding: 5px 30px;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 0 gray;
+}
+
+aside button:hover{
+background-color: rgb(72, 153, 252);
+transform: scale(1.1);
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section h1{
+    color: royalblue;
+}
+
+textarea{
+    width: 70vw;
+    min-height: 30vh;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+#output{
+    width: 70vw;
+    min-height: 40vh;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#outputButton{
+    background-color: rgb(251, 37, 108);
+    margin: 10px;
+}
+
+#outputButton:hover{
+    transform: scale(1.1);
+    background-color: rgb(55, 251, 37);
+
+}
+
+.outputSection{
+    width: 300px;
+    /* min-height: 60vh; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outputSection h2,.outputSection h3,#filteredText h3,#filteredText h5, #tokens h3,#tokens h5{
+    color: black;
+    text-align: center;
+    max-width: 400px;
+}
+
+#positiveResult,#nagativeResult,#neutralResult,#default,#validationOutput,#filteredText,#tokens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+.emoji img{
+    max-width: 160px;
+}
+#default img{
+    max-width: 200px;
+}
+#default{
+    display: flex;
+}
+
+.validation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.validation img{
+    max-width: 150px;
+}
+
+#filteredText,#tokens{
+    width: 100%;
+    min-height: 90%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#filteredText h5, #tokens h5 {
+    max-width: none;
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    color: white;
+    text-decoration: none;
+    border: none;
+    transition: all 0.2s;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(45deg,#FDA7DF,#A3CB38,#ff7979);
+    min-height: 100vh;
+}
+a,button,span,li{
+    cursor: pointer;
+}
+
+
+
+
+
+
